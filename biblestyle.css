@@ -6,14 +6,15 @@
 }
 header {
   text-align: center;
+  color:white;
   padding-top: 4%;
   font-style: oblique;
   font-size: xx-large;
   text-wrap: balance;
 }
 .caption {
+  color:white;
   text-align: center;
-
   font-size: large;
 }
 body {
@@ -30,6 +31,7 @@ img {
     position: absolute;
     padding-top: 0%;
     width: 34em;
+    position:center;
   }
 }
 .container {
