@@ -11,6 +11,7 @@ header {
   font-style: oblique;
   font-size: xx-large;
   text-wrap: balance;
+  display: block;
 }
 .caption {
   text-align: center;
