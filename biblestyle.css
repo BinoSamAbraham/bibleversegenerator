@@ -28,7 +28,7 @@ img {
 @media (max-width: 480px) {
   img {
     position: absolute;
-    padding-top: 0%;
+    padding-right: 10em;
     width: 34em;
     position:center;
   }
