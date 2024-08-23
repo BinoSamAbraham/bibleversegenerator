@@ -6,20 +6,19 @@
 }
 header {
   text-align: center;
-  color:white;
+  color:#3a181c;
   padding-top: 4%;
   font-style: oblique;
   font-size: xx-large;
   text-wrap: balance;
 }
 .caption {
-  
   text-align: center;
   font-size: large;
 }
 body {
   height: 100vh;
-  background: linear-gradient(#344e41, #3a5a40, #588157);
+  background: #723234;
 }
 img {
   position: absolute;
@@ -39,7 +38,7 @@ img {
   max-width: 34em;
   position: absolute;
   transform: translate(-50%, -50%);
-  background: linear-gradient(#dad7cd, #a3b18a);
+  background: transparent;
   top: 50%;
   left: 50%;
   display: flex;
@@ -50,6 +49,9 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
 }
+cite {
+  color: #2b1215;
+}
 p {
   width: 50%;
   font-size: 0.9em;
@@ -59,11 +61,11 @@ p {
 
 button#genbtn {
   cursor: pointer;
-  color: #344e41;
+  color: #000000;
   border-radius: 5em;
   border: none;
   padding: 0.8em 0;
-  background-color: #9ba884;
+  background-color: #d39c9e;
   margin: 2.7em 0 1.1em 0;
   font-size: 1.1em;
   width: 100%;
@@ -81,6 +83,7 @@ button:active {
 #result {
   font-size: 1.5em;
   font-size: 300;
-  color: #3a5a40;
+  color: #2b1215;
+  background-color: rgba(240, 248, 255, 0.39);
   align-self: center;
 }
